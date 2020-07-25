@@ -1,0 +1,1 @@
+{ RefCount : Natural, Size : Natural }

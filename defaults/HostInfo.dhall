@@ -1,0 +1,23 @@
+{ arch = None Text
+, buildahVersion = None Text
+, cgroupVersion = None Text
+, conmon = None ./../types/ConmonInfo.dhall
+, cpus = None Natural
+, distribution = None ./../types/DistributionInfo.dhall
+, eventLogger = None Text
+, hostname = None Text
+, idMappings = None ./../types/IDMappings.dhall
+, kernel = None Text
+, linkmode = None Text
+, memFree = None Natural
+, memTotal = None Natural
+, ociRuntime = None ./../types/OCIRuntimeInfo.dhall
+, os = None Text
+, remoteSocket = None ./../types/RemoteSocket.dhall
+, rootless = None Bool
+, runtimeInfo = None (List { mapKey : Text, mapValue : Text })
+, slirp4netns = None ./../types/SlirpInfo.dhall
+, swapFree = None Natural
+, swapTotal = None Natural
+, uptime = None Text
+}

@@ -1,0 +1,26 @@
+{ ArgsEscaped = None Bool
+, AttachStderr = None Bool
+, AttachStdin = None Bool
+, AttachStdout = None Bool
+, Cmd = None ./../types/StrSlice.dhall
+, Domainname = None Text
+, Entrypoint = None ./../types/StrSlice.dhall
+, Env = None (List Text)
+, ExposedPorts = None ./../types/PortSet.dhall
+, Healthcheck = None ./../types/HealthConfig.dhall
+, Hostname = None Text
+, Image = None Text
+, Labels = None (List { mapKey : Text, mapValue : Text })
+, MacAddress = None Text
+, NetworkDisabled = None Bool
+, OnBuild = None (List Text)
+, OpenStdin = None Bool
+, Shell = None ./../types/StrSlice.dhall
+, StdinOnce = None Bool
+, StopSignal = None Text
+, StopTimeout = None Natural
+, Tty = None Bool
+, User = None Text
+, Volumes = None (List { mapKey : Text, mapValue : Text })
+, WorkingDir = None Text
+}

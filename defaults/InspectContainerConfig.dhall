@@ -1,0 +1,25 @@
+{ Annotations = None (List { mapKey : Text, mapValue : Text })
+, AttachStderr = None Bool
+, AttachStdin = None Bool
+, AttachStdout = None Bool
+, Cmd = None (List Text)
+, CreateCommand = None (List Text)
+, Domainname = None Text
+, Entrypoint = None Text
+, Env = None (List Text)
+, Healthcheck = None ./../types/Schema2HealthConfig.dhall
+, Hostname = None Text
+, Image = None Text
+, Labels = None (List { mapKey : Text, mapValue : Text })
+, OnBuild = None Text
+, OpenStdin = None Bool
+, StdinOnce = None Bool
+, StopSignal = None Natural
+, SystemdMode = None Bool
+, Timezone = None Text
+, Tty = None Bool
+, Umask = None Text
+, User = None Text
+, Volumes = None (List { mapKey : Text, mapValue : Text })
+, WorkingDir = None Text
+}

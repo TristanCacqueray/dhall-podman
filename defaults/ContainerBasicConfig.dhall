@@ -1,0 +1,27 @@
+{ annotations = None (List { mapKey : Text, mapValue : Text })
+, command = None (List Text)
+, conmon_pid_file = None Text
+, containerCreateCommand = None (List Text)
+, entrypoint = None (List Text)
+, env = None (List { mapKey : Text, mapValue : Text })
+, hostname = None Text
+, labels = None (List { mapKey : Text, mapValue : Text })
+, log_configuration = None ./../types/LogConfig.dhall
+, name = None Text
+, namespace = None Text
+, oci_runtime = None Text
+, pidns = None ./../types/Namespace.dhall
+, pod = None Text
+, remove = None Bool
+, restart_policy = None Text
+, restart_tries = None Natural
+, sdnotifyMode = None Text
+, stdin = None Bool
+, stop_signal = None ./../types/Signal.dhall
+, stop_timeout = None Natural
+, sysctl = None (List { mapKey : Text, mapValue : Text })
+, systemd = None Text
+, terminal = None Bool
+, timezone = None Text
+, utsns = None ./../types/Namespace.dhall
+}

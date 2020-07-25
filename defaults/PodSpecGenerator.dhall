@@ -1,0 +1,22 @@
+{ cgroup_parent = None Text
+, cni_networks = None (List Text)
+, dns_option = None (List Text)
+, dns_search = None (List Text)
+, dns_server = None (List ./../types/IP.dhall)
+, hostadd = None (List Text)
+, hostname = None Text
+, infra_command = None (List Text)
+, infra_conmon_pid_file = None Text
+, infra_image = None Text
+, labels = None (List { mapKey : Text, mapValue : Text })
+, name = None Text
+, netns = None ./../types/Namespace.dhall
+, no_infra = None Bool
+, no_manage_hosts = None Bool
+, no_manage_resolv_conf = None Bool
+, pod_create_command = None (List Text)
+, portmappings = None (List ./../types/PortMapping.dhall)
+, shared_namespaces = None (List Text)
+, static_ip = None ./../types/IP.dhall
+, static_mac = None ./../types/HardwareAddr.dhall
+}

@@ -1,0 +1,26 @@
+{ BlkioWeight = None Natural
+, BlkioWeightDevice = None (List Text)
+, CPUPeriod = None Natural
+, CPUQuota = None Natural
+, CPURtPeriod = None Natural
+, CPURtRuntime = None Natural
+, CPUShares = None Natural
+, CPUs = None Double
+, CPUsetCPUs = None Text
+, CPUsetMems = None Text
+, DeviceCgroupRules = None (List Text)
+, DeviceReadBps = None (List Text)
+, DeviceReadIOps = None (List Text)
+, DeviceWriteBps = None (List Text)
+, DeviceWriteIOps = None (List Text)
+, DisableOomKiller = None Bool
+, KernelMemory = None Natural
+, Memory = None Natural
+, MemoryReservation = None Natural
+, MemorySwap = None Natural
+, MemorySwappiness = None Natural
+, OomScoreAdj = None Natural
+, PidsLimit = None Natural
+, ShmSize = None Natural
+, Ulimit = None (List Text)
+}
